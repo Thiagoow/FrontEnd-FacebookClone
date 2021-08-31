@@ -1,0 +1,20 @@
+<svg id="Grupo_144" data-name="Grupo 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58.906" height="58.906" viewBox="0 0 58.906 58.906">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e52c65"/>
+      <stop offset="1" stop-color="#ff517e"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_138" data-name="Grupo 138" transform="translate(0 0)">
+    <ellipse id="Elipse_62-2" data-name="Elipse 62-2" cx="29.453" cy="29.453" rx="29.453" ry="29.453" fill="url(#linear-gradient)"/>
+  </g>
+  <path id="Caminho_72" data-name="Caminho 72" d="M520.544,213.037s-.273-8.923,5.992-8.923,5.857,8.807,5.857,8.807a10.055,10.055,0,0,0-5.993-1.762A9.019,9.019,0,0,0,520.544,213.037Z" transform="translate(-496.713 -163.835)" fill="#17293b"/>
+  <g id="Grupo_139" data-name="Grupo 139" transform="translate(13.168 22.339)">
+    <ellipse id="Elipse_93" data-name="Elipse 93" cx="2.88" cy="4.115" rx="2.88" ry="4.115" transform="translate(1.396 2.318)" fill="#17293b"/>
+    <path id="Caminho_73" data-name="Caminho 73" d="M514.208,193.455a19.243,19.243,0,0,1,7.525,3.688" transform="translate(-514.208 -193.455)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+  </g>
+  <g id="Grupo_140" data-name="Grupo 140" transform="translate(38.214 22.339)">
+    <ellipse id="Elipse_94" data-name="Elipse 94" cx="2.88" cy="4.115" rx="2.88" ry="4.115" transform="translate(0.367 2.318)" fill="#17293b"/>
+    <path id="Caminho_74" data-name="Caminho 74" d="M536.614,193.455a19.242,19.242,0,0,0-7.525,3.688" transform="translate(-529.089 -193.455)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff387a"/>
+      <stop offset="0.245" stop-color="#f2326f"/>
+      <stop offset="0.583" stop-color="#e82d67"/>
+      <stop offset="1" stop-color="#e52c65"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_252" data-name="Grupo 252" transform="translate(-722.5 -979)">
+    <circle id="Elipse_62-2" data-name="Elipse 62-2" cx="17.5" cy="17.5" r="17.5" transform="translate(722.5 979)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_21" data-name="Caminho 21" d="M382.105,207.238a32.849,32.849,0,0,1-5.539-4.593,13.962,13.962,0,0,1-2.752-4.029,6.6,6.6,0,0,1-.561-2.963,4.624,4.624,0,0,1,.762-2.289,4.936,4.936,0,0,1,1.9-1.655,5.49,5.49,0,0,1,2.454-.583,4.93,4.93,0,0,1,2,.408,4.478,4.478,0,0,1,1.679,1.271l.062.075.062-.075a4.486,4.486,0,0,1,1.679-1.271,4.934,4.934,0,0,1,2-.408,5.484,5.484,0,0,1,2.454.583,4.929,4.929,0,0,1,1.9,1.655,4.6,4.6,0,0,1,.762,2.289,6.577,6.577,0,0,1-.561,2.963,13.939,13.939,0,0,1-2.751,4.029A32.8,32.8,0,0,1,382.105,207.238Z" transform="translate(357.895 798.818)" fill="#f4f6f8"/>
+  </g>
+</svg>

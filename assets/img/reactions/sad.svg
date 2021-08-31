@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.607" height="58.906" viewBox="0 0 59.607 58.906">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="58.906" height="58.906" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc91"/>
+      <stop offset="0.21" stop-color="#ffbe66"/>
+      <stop offset="0.459" stop-color="#ffc03a"/>
+      <stop offset="0.683" stop-color="#ffc21a"/>
+      <stop offset="0.871" stop-color="#ffc306"/>
+      <stop offset="1" stop-color="#ffc400"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4589f7"/>
+      <stop offset="1" stop-color="#1aafff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.96" y1="0.5" x2="0.04" y2="0.5" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Grupo_143" data-name="Grupo 143" transform="translate(0)">
+    <g id="Grupo_88" data-name="Grupo 88" transform="translate(0.701 0)" clip-path="url(#clip-path)">
+      <g id="Grupo_88-2" data-name="Grupo 88" transform="translate(0)">
+        <g id="Grupo_136" data-name="Grupo 136">
+          <ellipse id="Elipse_62-2" data-name="Elipse 62-2" cx="29.453" cy="29.453" rx="29.453" ry="29.453" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <path id="Caminho_66" data-name="Caminho 66" d="M465.772,186.31" transform="translate(-454.117 -175.996)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+    <path id="Caminho_67" data-name="Caminho 67" d="M471.024,215.573c.15-.188.276-.375.4-.56,3.417-5.049.656-12.232.656-12.232s-7.2-1.431-11.749,4.3a6.827,6.827,0,1,0,10.692,8.493Z" transform="translate(-458.847 -164.855)" fill="url(#linear-gradient-2)"/>
+    <path id="Caminho_68" data-name="Caminho 68" d="M487.885,215.573c-.15-.188-.276-.375-.4-.56-3.415-5.049-.655-12.232-.655-12.232s7.2-1.431,11.749,4.3a6.827,6.827,0,1,1-10.692,8.493Z" transform="translate(-440.455 -164.855)" fill="url(#linear-gradient-3)"/>
+    <path id="Caminho_69" data-name="Caminho 69" d="M464.428,200.792s7.143,1.952,11.037-2.881" transform="translate(-455.035 -168.072)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+    <path id="Caminho_70" data-name="Caminho 70" d="M493.461,200.792s-7.145,1.952-11.039-2.881" transform="translate(-442.744 -168.072)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+    <path id="Caminho_71" data-name="Caminho 71" d="M478.583,211.839a8.757,8.757,0,0,1,3.979-2.272,10.643,10.643,0,0,1,4.815.145" transform="translate(-445.366 -160.26)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <ellipse id="Elipse_91" data-name="Elipse 91" cx="3.2" cy="1.955" rx="3.2" ry="1.955" transform="translate(12.677 34.07)" fill="#17293b"/>
+    <ellipse id="Elipse_92" data-name="Elipse 92" cx="3.2" cy="1.955" rx="3.2" ry="1.955" transform="translate(39.946 34.07)" fill="#17293b"/>
+  </g>
+</svg>

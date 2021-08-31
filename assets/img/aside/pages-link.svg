@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.322" height="47.814" viewBox="0 0 37.322 47.814">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.1" y1="0.671" x2="1.008" y2="0.099" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#430070"/>
+      <stop offset="0.111" stop-color="#4e0278"/>
+      <stop offset="0.311" stop-color="#6e0790"/>
+      <stop offset="0.577" stop-color="#a010b7"/>
+      <stop offset="0.895" stop-color="#e61cec"/>
+      <stop offset="1" stop-color="#ff21ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.087" y1="0.676" x2="1.083" y2="0.358" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#991eff"/>
+      <stop offset="1" stop-color="#ff21ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececf6"/>
+      <stop offset="0.974" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_113" data-name="Grupo 113" transform="translate(-0.069)">
+    <path id="Caminho_39" data-name="Caminho 39" d="M131.785,108.7s-1.6-2.559-2.229-8.226a54.792,54.792,0,0,1,.8-15.893s7.556,3.273,19.824-.615C150.182,83.968,158.551,105.429,131.785,108.7Z" transform="translate(-114.03 -76.701)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_40" data-name="Caminho 40" d="M138.341,131.8a8.814,8.814,0,0,1-6.117,4.239s-1.6-2.559-2.229-8.226C132.487,127.271,138.341,131.8,138.341,131.8Z" transform="translate(-114.468 -104.034)" fill="#430070"/>
+    <path id="Caminho_41" data-name="Caminho 41" d="M99.481,70.46s12.464-3.644,18.8-.841c0,0,2.452,14.3,1.022,25.231,0,0-10.421-1.682-18.391.841Z" transform="translate(-95.425 -67.084)" fill="url(#linear-gradient-2)"/>
+    <path id="Caminho_42" data-name="Caminho 42" d="M92.419,112.449h-1.36a2.178,2.178,0,0,1-2.176-2.281l.1-2.153q.889-18.851.045-37.724l-.151-3.382a2.178,2.178,0,0,1,2.176-2.275h1.361a2.178,2.178,0,0,1,2.176,2.081l.16,3.577q.845,18.853-.044,37.724l-.111,2.358A2.178,2.178,0,0,1,92.419,112.449Z" transform="translate(-88.806 -64.635)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+@mixin scrollbars {
+  &::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  &::-webkit-scrollbar-thumb {
+    transition: all 300ms ease;
+    background: transparent;
+    border-radius: 15px;
+  }
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: #3e516f;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4589f7"/>
+      <stop offset="1" stop-color="#1aafff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_185" data-name="Grupo 185" transform="translate(-317.485 -180.182)">
+    <circle id="Elipse_62-2" data-name="Elipse 62-2" cx="17.5" cy="17.5" r="17.5" transform="translate(317.485 180.182)" fill="url(#linear-gradient)"/>
+    <path id="Retângulo_33" data-name="Retângulo 33" d="M328.679,194.435h0a2.277,2.277,0,0,1,2.277,2.277h0v6.223a.742.742,0,0,1-.742.742h-1.535A2.277,2.277,0,0,1,326.4,201.4h0v-4.687a2.276,2.276,0,0,1,2.277-2.277Z" fill="#f4f6f8"/>
+    <path id="Caminho_10" data-name="Caminho 10" d="M337.857,193.916c1.571-2.192,1.869-5.013.587-5.839s-2.527-.439-2.527,2.087-3.971,2.718-3.971,6.969v4.824c0,.981,1.286,2.351,6.279,2.351,1.68,0,2.338-.053,2.338-.053,2.18,0,1.606-2.333,1.606-2.333s.612.038.994-.8a1.754,1.754,0,0,0-.077-1.568,1.59,1.59,0,0,0,.841-1.453c0-1.071-.657-1.323-.657-1.323.729-1.2.257-2.745-1.667-2.864A27.547,27.547,0,0,0,337.857,193.916Z" fill="#f4f6f8"/>
+  </g>
+</svg>

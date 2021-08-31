@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.326" height="43.082" viewBox="0 0 42.326 43.082">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.073" y1="0.911" x2="0.854" y2="0.144" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3382f6"/>
+      <stop offset="0.083" stop-color="#3d7df1"/>
+      <stop offset="0.229" stop-color="#5a6fe6"/>
+      <stop offset="0.419" stop-color="#895ad3"/>
+      <stop offset="0.602" stop-color="#bd43bf"/>
+      <stop offset="0.747" stop-color="#d23fa8"/>
+      <stop offset="1" stop-color="#ff387a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececf6"/>
+      <stop offset="0.974" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Caminho_25" x="2.493" y="11.578" width="36.359" height="24.118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_252" data-name="Grupo 252" transform="translate(-12.816 -483.918)">
+    <path id="Caminho_23" data-name="Caminho 23" d="M100.863,75.184a21.2,21.2,0,0,1-28.3,19.938l-7.116,1.97V90.856a21.175,21.175,0,1,1,35.417-15.671Z" transform="translate(-45.721 429.908)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 12.82, 483.92)" filter="url(#Caminho_25)">
+      <path id="Caminho_25-2" data-name="Caminho 25" d="M104.131,91.945l-5.774,7.89-1.165,1.594a3.189,3.189,0,0,1-4.454.7l-.094-.071-.429-.327-5.063-3.962-7.285,5.785a1.683,1.683,0,0,1-2.361-.271,1.663,1.663,0,0,1-.094-1.951l7.014-10.848a3.191,3.191,0,0,1,4.4-.955l.252.18.451.353,5.135,4.026,6.721-4.905a1.959,1.959,0,0,1,2.744.421A2.035,2.035,0,0,1,104.131,91.945Z" transform="translate(-70.15 -75.72)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

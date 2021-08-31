@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Helvetica;
+  src: url('~@/assets/fonts/Helvetica-Regular.ttf');
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url('~@/assets/fonts/Helvetica-Bold.ttf');
+  font-weight: 700;
+  font-display: block;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  font-family: Helvetica;
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+
+#__layout,
+#__nuxt,
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  &:focus {
+    outline: none;
+  }
+}

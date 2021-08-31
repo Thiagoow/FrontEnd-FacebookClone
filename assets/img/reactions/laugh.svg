@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.61" height="59.594" viewBox="0 0 59.61 59.594">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc91"/>
+      <stop offset="0.21" stop-color="#ffbe66"/>
+      <stop offset="0.459" stop-color="#ffc03a"/>
+      <stop offset="0.683" stop-color="#ffc21a"/>
+      <stop offset="0.871" stop-color="#ffc306"/>
+      <stop offset="1" stop-color="#ffc400"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.243" y1="-0.302" x2="0.76" y2="1.376" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff517e"/>
+      <stop offset="0.183" stop-color="#fb4f7d"/>
+      <stop offset="0.331" stop-color="#f14b7d"/>
+      <stop offset="0.467" stop-color="#e0437b"/>
+      <stop offset="0.595" stop-color="#c83979"/>
+      <stop offset="0.718" stop-color="#a92c77"/>
+      <stop offset="0.838" stop-color="#831c74"/>
+      <stop offset="0.952" stop-color="#570971"/>
+      <stop offset="1" stop-color="#430070"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4589f7"/>
+      <stop offset="1" stop-color="#1aafff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_157" data-name="Grupo 157" transform="translate(-411.726 -180.322)">
+    <g id="Grupo_88" data-name="Grupo 88" transform="translate(411.867 180.322)">
+      <g id="Grupo_154" data-name="Grupo 154" transform="translate(0 0)">
+        <ellipse id="Elipse_62-2" data-name="Elipse 62-2" cx="29.508" cy="29.797" rx="29.508" ry="29.797" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <path id="Caminho_76" data-name="Caminho 76" d="M435.978,211.312c16.011,0,19.865-14.528,12.328-15.864-5.491-.975-19.945-.867-24.373,0C415.167,197.161,420.25,211.312,435.978,211.312Z" transform="translate(5.713 10.482)" fill="#17293b"/>
+    <path id="Caminho_77" data-name="Caminho 77" d="M443.718,204.479a21.034,21.034,0,0,1-20.605-.279,6.594,6.594,0,0,1,10.234-1.814,6.592,6.592,0,0,1,10.371,2.093Z" transform="translate(7.909 14.756)" fill="url(#linear-gradient-2)"/>
+    <path id="Caminho_78" data-name="Caminho 78" d="M419.442,186.31a23.832,23.832,0,0,1,9.087,3.9s-8.509.289-11.971,2.452" transform="translate(3.477 4.403)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+    <path id="Caminho_79" data-name="Caminho 79" d="M444.02,186.31a23.843,23.843,0,0,0-9.087,3.9s8.511.289,11.971,2.452" transform="translate(16.123 4.403)" fill="none" stroke="#17293b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.271"/>
+    <path id="Caminho_80" data-name="Caminho 80" d="M450.349,196.8a5.419,5.419,0,0,1-5,3.41H425.3a5.4,5.4,0,0,1-3.833-1.611,5.774,5.774,0,0,1-1.082-1.6,5.571,5.571,0,0,1,3.059-1.551c4.41-.868,18.845-.977,24.337,0A4.43,4.43,0,0,1,450.349,196.8Z" transform="translate(6.229 10.484)" fill="#fff"/>
+    <path id="Caminho_81" data-name="Caminho 81" d="M442.113,197.392c-.112-.141-.2-.279-.3-.418-2.543-3.758-.488-9.1-.488-9.1s5.357-1.064,8.743,3.2a5.081,5.081,0,1,1-7.957,6.32Z" transform="translate(20.161 5.442)" fill="url(#linear-gradient-3)"/>
+    <path id="Caminho_82" data-name="Caminho 82" d="M420.788,197.392c.112-.141.2-.279.3-.418,2.542-3.758.488-9.1.488-9.1s-5.358-1.064-8.745,3.2a5.081,5.081,0,1,0,7.957,6.32Z" transform="translate(0 5.442)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

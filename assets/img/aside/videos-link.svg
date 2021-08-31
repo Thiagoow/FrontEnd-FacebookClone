@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.872" height="39.151" viewBox="0 0 51.872 39.151">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc714c"/>
+      <stop offset="1" stop-color="#ff9236"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f62e79"/>
+      <stop offset="1" stop-color="#ff9236"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececf6"/>
+      <stop offset="0.974" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Caminho_31" x="13.421" y="10.728" width="23.272" height="23.694" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_252" data-name="Grupo 252" transform="translate(-387.043 -973.126)">
+    <path id="Caminho_28" data-name="Caminho 28" d="M162.929,81.193l-6.682,1.428v19.464l6.683,1.428a2.789,2.789,0,0,0,3.365-2.519h0a115.689,115.689,0,0,0,0-17.22l0-.061A2.789,2.789,0,0,0,162.929,81.193Z" transform="translate(272.298 900.348)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_29" data-name="Caminho 29" d="M92.282,72.324l.021.2a58.42,58.42,0,0,1,0,11.878l-.024.24c-.7,6.854-5.532,12.195-11.551,12.77l-2,.191a100.557,100.557,0,0,1-19.22-.008l-1.822-.176c-6.007-.579-10.829-5.9-11.539-12.743h0a58.415,58.415,0,0,1-.017-11.88l.047-.46c.692-6.859,5.521-12.21,11.543-12.79l1.788-.173a100.588,100.588,0,0,1,19.22-.008l2,.191C86.749,60.133,91.58,65.472,92.282,72.324Z" transform="translate(341.203 914.215)" fill="url(#linear-gradient-2)"/>
+    <g transform="matrix(1, 0, 0, 1, 387.04, 973.13)" filter="url(#Caminho_31)">
+      <path id="Caminho_31-2" data-name="Caminho 31" d="M93.515,93.05v11.478a1.606,1.606,0,0,0,2.377,1.409l11.06-6.052a1.606,1.606,0,0,0-.064-2.85l-11.06-5.426A1.606,1.606,0,0,0,93.515,93.05Z" transform="translate(-75.59 -79.21)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>
