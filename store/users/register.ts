@@ -3,7 +3,7 @@ import { $axios } from '@/utils/nuxt-instance'
 import { User } from '@/models'
 
 interface CreatePayload {
-  description: string
+  email: string
   redirectUrl: string
 }
 interface ShowPayload {
@@ -41,7 +41,7 @@ export default class UserRegister extends VuexModule {
   public async show({ key }: ShowPayload) {
     // O método $get já traz desestruturado :D
     const user = await $axios.$get(`/users/register/${key}`)
-
+    // Atualiza o usuário recebido da requisição:
     this.context.commit('UPDATE_USER', user)
   }
 
