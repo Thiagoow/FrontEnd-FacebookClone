@@ -9,7 +9,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  props: ['imageURL', 'text'],
+  props: ['imageURL', 'text']
 })
 </script>
 

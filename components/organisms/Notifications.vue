@@ -132,9 +132,9 @@ import Vue from 'vue'
 export default Vue.extend({
   props: {
     open: {
-      type: Boolean,
-    },
-  },
+      type: Boolean
+    }
+  }
 })
 </script>
 

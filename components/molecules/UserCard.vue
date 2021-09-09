@@ -18,16 +18,16 @@ export default Vue.extend({
   props: {
     userName: {
       type: String,
-      required: true,
+      required: true
     },
     description: {
       type: String,
-      required: true,
+      required: true
     },
     btnText: {
-      type: String,
-    },
-  },
+      type: String
+    }
+  }
 })
 </script>
 

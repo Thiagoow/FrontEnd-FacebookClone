@@ -10,13 +10,13 @@ export default Vue.extend({
   computed: {
     handleStatus(): object {
       const classes = {
-        'status-online': this.status == 'online',
-        'status-offline': this.status == 'offline',
-        'status-busy': this.status === 'busy',
+        'status-online': this.status === 'online',
+        'status-offline': this.status === 'offline',
+        'status-busy': this.status === 'busy'
       }
       return classes
-    },
-  },
+    }
+  }
 })
 </script>
 

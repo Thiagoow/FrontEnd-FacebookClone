@@ -2,10 +2,10 @@
   <div class="grow-wrap">
     <textarea
       rows="1"
-      @focus="$emit('focused')"
-      @input="handleAutoExpand($event)"
       :placeholder="placeholder"
       :value="value"
+      @focus="$emit('focused')"
+      @input="handleAutoExpand($event)"
     ></textarea>
   </div>
 </template>

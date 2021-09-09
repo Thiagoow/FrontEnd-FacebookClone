@@ -2,7 +2,7 @@
   <div class="register-template-container">
     <div class="image"></div>
 
-    <div class="auth-box" v-if="true">
+    <div v-if="true" class="auth-box">
       <img class="logo" src="@/assets/img/facebook-logo.svg" alt="" />
 
       <div class="welcome">
@@ -15,7 +15,7 @@
       <AlreadyHaveAccount text="Já possui conta?" />
     </div>
 
-    <div class="auth-box" v-else>
+    <div v-else class="auth-box">
       <EmailSent />
     </div>
   </div>

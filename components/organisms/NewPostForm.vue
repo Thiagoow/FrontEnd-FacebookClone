@@ -1,17 +1,17 @@
 <template>
   <form
-    @submit.prevent="sendPost()"
     ref="postform"
     class="post-form"
     :class="{ 'active-form': isWritingANewPost, 'has-text': hasText }"
+    @submit.prevent="sendPost()"
   >
     <div class="new-post-box">
       <img src="@/assets/img/profile-pic.jpg" alt="" />
 
       <ExpandableTextarea
         v-model="text"
-        @focused="isWritingANewPost = true"
         placeholder="No que você está pensando?"
+        @focused="isWritingANewPost = true"
       />
     </div>
 
@@ -39,13 +39,21 @@ export default Vue.extend({
   data(): any {
     return {
       text: '',
-      isWritingANewPost: false,
+      isWritingANewPost: false
     }
   },
   computed: {
     hasText(): boolean {
       return this.text.trim().length > 0
-    },
+    }
+  },
+  mounted() {
+    window.addEventListener('click', (e) => {
+      if (this.$refs.postform.contains(e.target)) {
+      } else {
+        this.isWritingANewPost = false
+      }
+    })
   },
   methods: {
     sendPost() {
@@ -54,17 +62,8 @@ export default Vue.extend({
     cancelPost() {
       this.text = ''
       this.isWritingANewPost = false
-    },
-  },
-  mounted() {
-    window.addEventListener('click', (e) => {
-      if (this.$refs.postform.contains(e.target)) {
-        return
-      } else {
-        this.isWritingANewPost = false
-      }
-    })
-  },
+    }
+  }
 })
 </script>
 

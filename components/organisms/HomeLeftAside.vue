@@ -6,57 +6,57 @@
 
         <p>Cataline S. Rocha</p>
         <BaseButton
-          @click.native="toggleMenuActive"
-          btnLink
+          btn-link
           text="Ver Perfil"
           link="/123"
+          @click.native="toggleMenuActive"
         />
       </div>
       <div class="aside-links">
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'messenger-link.svg'"
+          :image-u-r-l="'messenger-link.svg'"
           :text="'Messenger'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'followers-link.svg'"
+          :image-u-r-l="'followers-link.svg'"
           :text="'Seguidores'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'groups-link.svg'"
+          :image-u-r-l="'groups-link.svg'"
           :text="'Grupos'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'pages-link.svg'"
+          :image-u-r-l="'pages-link.svg'"
           :text="'Páginas'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'events-link.svg'"
+          :image-u-r-l="'events-link.svg'"
           :text="'Eventos'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'foundations-link.svg'"
+          :image-u-r-l="'foundations-link.svg'"
           :text="'Fundações'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'memories-link.svg'"
+          :image-u-r-l="'memories-link.svg'"
           :text="'Memórias'"
+          @click.native="toggleMenuActive"
         />
         <AsideLink
-          @click.native="toggleMenuActive"
-          :imageURL="'videos-link.svg'"
+          :image-u-r-l="'videos-link.svg'"
           :text="'Vídeos'"
+          @click.native="toggleMenuActive"
         />
       </div>
     </div>
 
-    <button @click="toggleMenuActive" class="btn-close">
+    <button class="btn-close" @click="toggleMenuActive">
       <fa :icon="['fas', 'times']" class="close" />
     </button>
   </Aside>
@@ -70,7 +70,7 @@ export default Vue.extend({
   computed: {
     isMenuActive() {
       return mobile.$isMenuActive
-    },
+    }
   },
   methods: {
     toggleMenuActive() {
@@ -83,8 +83,8 @@ export default Vue.extend({
       body.classList.toggle('overflow-hidden')
       html.classList.toggle('overflow-hidden')
       mobile.toggle()
-    },
-  },
+    }
+  }
 })
 </script>
 

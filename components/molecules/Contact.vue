@@ -22,8 +22,8 @@ export default Vue.extend({
   computed: {
     getStatus(): string {
       return this.status
-    },
-  },
+    }
+  }
 })
 </script>
 

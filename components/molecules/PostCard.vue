@@ -58,7 +58,7 @@
         <span>Reagir</span>
       </div>
 
-      <div @click="openedComments = !openedComments" class="btn-open-comments">
+      <div class="btn-open-comments" @click="openedComments = !openedComments">
         <img src="@/assets/img/comment-icon.svg" alt="" />
         <span>Comentar</span>
       </div>
@@ -115,9 +115,9 @@ export default Vue.extend({
   data(): any {
     return {
       openedComments: false,
-      text: '',
+      text: ''
     }
-  },
+  }
 })
 </script>
 

@@ -12,16 +12,16 @@ export default Vue.extend({
   props: {
     text: {
       type: String,
-      required: true,
+      required: true
     },
     link: {
-      type: String,
+      type: String
     },
     btnLink: {
       default: false,
-      type: Boolean,
-    },
-  },
+      type: Boolean
+    }
+  }
 })
 </script>
 

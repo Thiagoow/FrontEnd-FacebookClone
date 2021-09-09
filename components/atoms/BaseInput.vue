@@ -2,8 +2,8 @@
   <input
     :value="value"
     :placeholder="placeholder"
-    @input="updateValue"
     :type="type"
+    @input="updateValue"
   />
 </template>
 
