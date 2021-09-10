@@ -1,9 +1,14 @@
 import { Module, VuexModule, Action, Mutation } from 'vuex-module-decorators'
 import { $axios, $cookies } from '@/utils/nuxt-instance'
 
-interface CreatePayload {
+interface StorePayload {
   email: string
   password: string
+}
+interface UpdatePayload {
+  /* O ? significa que é uma prop opcional 
+  (podendo ou não existir): */
+  token?: string
 }
 
 type Token = string | null
@@ -24,7 +29,7 @@ export default class Auth extends VuexModule {
   }
 
   @Action({ rawError: true })
-  public async create(payload: CreatePayload) {
+  public async create(payload: StorePayload) {
     // Cria um token para o usuário:
     const { token } = await $axios.$post('/auth', payload)
 
@@ -40,7 +45,16 @@ export default class Auth extends VuexModule {
     this.context.commit('UPDATE_TOKEN', token)
   }
 
-  @Action({ rawError: true })
+  @Action
+  // Para que o user continue com o cookie de auth, msm depois de sair da página:
+  public update(payload: UpdatePayload) {
+    // Se o token existir nos cookies:
+    const token = payload?.token ? payload.token : $cookies.get('authToken')
+    // Armazena ele, ou define como null:
+    this.context.commit('UPDATE_TOKEN', token || null)
+  }
+
+  @Action
   public async destroy() {
     // Desfaz o login/autenticação:
     await $axios.delete('/auth')

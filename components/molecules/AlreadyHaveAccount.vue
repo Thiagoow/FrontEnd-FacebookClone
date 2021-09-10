@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <p>
-      <span>{{text}}</span>
+      <span>{{ text }}</span>
       <NuxtLink to="/login">Entrar</NuxtLink>
     </p>
   </div>
@@ -13,9 +13,9 @@ export default Vue.extend({
   props: {
     text: {
       type: String,
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 })
 </script>
 

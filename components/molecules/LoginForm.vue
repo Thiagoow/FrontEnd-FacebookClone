@@ -4,7 +4,11 @@
       <BaseInput v-model="email" type="email" placeholder="E-mail" />
     </div>
     <div class="fom-field">
-      <BaseInput v-model="password" type="password" placeholder="Senha" />
+      <BaseInput
+        v-model="password"
+        type="password"
+        placeholder="Senha"
+      ></BaseInput>
     </div>
 
     <NuxtLink to="/recovery"> Esqueceu a senha? </NuxtLink>

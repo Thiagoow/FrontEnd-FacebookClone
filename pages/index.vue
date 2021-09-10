@@ -6,6 +6,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  layout: 'blank'
+  // Acesso permitido apenas a users autenticados/logados:
+  middleware: 'auth'
 })
 </script>
