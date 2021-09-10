@@ -27,18 +27,21 @@ export default Vue.extend({
           email: this.email,
           redirectUrl: 'http://localhost:3000/register'
         })
-        // Limpa o e-mail pro usuário após criar ele:
-        this.email = ''
+
         // Emite uma notificação de sucesso:
         this.$notify({
           type: 'success',
           text: 'Tudo certo! Verifique seu e-mail! 🤩✌🏼😊'
         })
+
+        // Limpa o e-mail pro usuário após criar ele:
+        this.email = ''
       } catch (error) {
         this.$notify({
           type: 'error',
           text: 'Ops.. Algo deu errado❗ 😵😕'
         })
+        console.log(error)
       }
     }
   }
