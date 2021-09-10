@@ -1,12 +1,9 @@
 <template>
-  <div>
-    <Header />
-    <FullScreenContainer>
-      <HomeLeftAside class="home-aside" />
-      <HomeFeed />
-      <HomeRightAside />
-    </FullScreenContainer>
-  </div>
+  <FullScreenContainer>
+    <HomeLeftAside class="home-aside" />
+    <HomeFeed />
+    <HomeRightAside />
+  </FullScreenContainer>
 </template>
 
 <style lang="scss" scoped>
