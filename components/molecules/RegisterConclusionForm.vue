@@ -51,7 +51,7 @@ export default Vue.extend({
 
         this.$notify({
           type: 'success',
-          text: 'Cadastro finalizado com sucesso! Agora você já pode efetuar o login! 🤩✌🏼😊'
+          text: '✔ Cadastro finalizado com sucesso! Você já pode efetuar o login! 🤩✌🏼😊'
         })
 
         // Limpa o formulário:
@@ -59,12 +59,27 @@ export default Vue.extend({
         this.user.name = ''
         this.user.password = ''
         this.user.passwordConfirmation = ''
-      } catch (error) {
+      } catch ({ response }) {
+        console.log(response.data.errors)
+
+        // Mensagem de erro padrão:
         this.$notify({
           type: 'error',
-          text: 'Ops.. Algo deu errado❗ 😵😕'
+          text: '❌ Ops.. Algo deu errado❗ 😵😕'
         })
-        console.log(error)
+
+        if (response.data.errors[0].message === 'required validation failed') {
+          this.$notify({
+            type: 'error',
+            text: '❌ Por favor preencha todos os campos corretamente'
+          })
+        }
+        if (response.data.errors[0].message === 'confirmed validation failed') {
+          this.$notify({
+            type: 'warn',
+            text: '⚠ Sua senha e a confirmação não são iguais!'
+          })
+        }
       }
     }
   }

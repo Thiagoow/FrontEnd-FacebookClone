@@ -31,7 +31,7 @@ export default Vue.extend({
         // Emite uma notificação de sucesso:
         this.$notify({
           type: 'success',
-          text: 'Tudo certo! Verifique seu e-mail! 🤩✌🏼😊'
+          text: '✔ Tudo certo! Verifique seu e-mail! 🤩✌🏼😊'
         })
 
         // Limpa o e-mail pro usuário após criar ele:
@@ -42,19 +42,19 @@ export default Vue.extend({
         // Mensagem de erro padrão:
         this.$notify({
           type: 'error',
-          text: 'Ops.. Algo deu errado❗ 😵😕'
+          text: '❌ Ops.. Algo deu errado❗ 😵😕'
         })
 
         if (response.data.errors[0].message === 'required validation failed') {
           this.$notify({
             type: 'error',
-            text: 'Digite um e-mail válido!'
+            text: '❌ Digite um e-mail válido!'
           })
         }
         if (response.data.errors[0].message === 'unique validation failure') {
           this.$notify({
-            type: 'error',
-            text: 'Você já está cadastrado! 🤩🤗 Por favor, realize o Login'
+            type: 'warn',
+            text: '⚠ Você já está cadastrado! 🤩🤗 Por favor, realize o Login'
           })
         }
       }

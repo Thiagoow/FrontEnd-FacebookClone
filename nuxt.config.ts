@@ -35,7 +35,7 @@ export default {
     }
   },
 
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', 'cookie-universal-nuxt'],
 
   // URL BASE DA API:
   axios: {
