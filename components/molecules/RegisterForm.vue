@@ -36,12 +36,27 @@ export default Vue.extend({
 
         // Limpa o e-mail pro usuário após criar ele:
         this.email = ''
-      } catch (error) {
+      } catch ({ response }) {
+        console.log(response.data.errors)
+
+        // Mensagem de erro padrão:
         this.$notify({
           type: 'error',
           text: 'Ops.. Algo deu errado❗ 😵😕'
         })
-        console.log(error)
+
+        if (response.data.errors[0].message === 'required validation failed') {
+          this.$notify({
+            type: 'error',
+            text: 'Digite um e-mail válido!'
+          })
+        }
+        if (response.data.errors[0].message === 'unique validation failure') {
+          this.$notify({
+            type: 'error',
+            text: 'Você já está cadastrado! 🤩🤗 Por favor, realize o Login'
+          })
+        }
       }
     }
   }

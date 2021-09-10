@@ -45,6 +45,7 @@ export default Vue.extend({
       try {
         await userRegister.update({
           key: this.$route.params.key,
+          // Tudo presente no objeto user, preenchido pelo v-model:
           ...this.user
         })
 

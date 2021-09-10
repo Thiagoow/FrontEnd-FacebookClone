@@ -56,7 +56,8 @@ html {
   border: none;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
-  width: max-content;
+  text-align: center !important;
+  width: auto;
   margin: 2rem auto;
   cursor: pointer;
   &.warn {

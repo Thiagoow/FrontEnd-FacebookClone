@@ -32,7 +32,7 @@ export default class UserRegister extends VuexModule {
   }
 
   // Usando as requisições do insomnia, criamos as actions do módulo de registro do usuário:
-  @Action
+  @Action({ rawError: true })
   public async create(payload: CreatePayload) {
     await $axios.$post('/users/register', payload)
   }
