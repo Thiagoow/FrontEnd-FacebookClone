@@ -11,16 +11,23 @@
       </div>
     </div>
     <AccountForm />
-    <div class="disable-account">
-      <button>Desativar minha conta temporariamente</button>
+    <div class="exit-account" @click="exitAccount">
+      <button>Sair da conta</button>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import { auth } from '@/store'
 
-export default Vue.extend({})
+export default Vue.extend({
+  methods: {
+    async exitAccount() {
+      await auth.destroy()
+    }
+  }
+})
 </script>
 
 <style lang="scss" scoped>
@@ -65,7 +72,7 @@ export default Vue.extend({})
       }
     }
   }
-  .disable-account {
+  .exit-account {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-template-areas: '_ Button';
