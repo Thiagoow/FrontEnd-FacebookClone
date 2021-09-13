@@ -9,38 +9,27 @@
         <ul class="contacts">
           <Contact
             image-u-r-l="profile-pic.jpg"
-            username="RafaelBarros"
+            username="Rafael Barros"
+            :link="'RafaelBarros'"
             status="online"
           />
           <Contact
             image-u-r-l="profile-pic.jpg"
             username="Gabriel Rocha Melo"
+            :link="'GabrielRochaMelo'"
             status="busy"
           />
           <Contact
             image-u-r-l="profile-pic.jpg"
             username="Stephanny Motta"
+            :link="'StephannyMotta'"
             status="online"
           />
           <Contact
             image-u-r-l="profile-pic.jpg"
             username="Alexandre Mendes"
+            :link="'AlexandreMendes'"
             status="busy"
-          />
-          <Contact
-            image-u-r-l="profile-pic.jpg"
-            username="Giovana dos Santos"
-            status="busy"
-          />
-          <Contact
-            image-u-r-l="profile-pic.jpg"
-            username="Ronaldo Schimth"
-            status="online"
-          />
-          <Contact
-            image-u-r-l="profile-pic.jpg"
-            username="Heloise Vasconcelos"
-            status="online"
           />
         </ul>
 
@@ -50,16 +39,19 @@
           <Contact
             image-u-r-l="profile-pic.jpg"
             username="Deborah Gomes"
+            :link="'DeborahGomes'"
             status="offline"
           />
           <Contact
             image-u-r-l="profile-pic.jpg"
             username="Jéssica Bareoni"
+            :link="'JéssicaBareoni'"
             status="offline"
           />
           <Contact
             image-u-r-l="profile-pic.jpg"
             username="Chris Nathaniel"
+            :link="'ChrisNathaniel'"
             status="offline"
           />
         </ul>

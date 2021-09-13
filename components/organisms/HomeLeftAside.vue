@@ -8,7 +8,7 @@
         <BaseButton
           btn-link
           text="Ver Perfil"
-          link="/123"
+          link="/account"
           @click.native="toggleMenuActive"
         />
       </div>
@@ -16,41 +16,49 @@
         <AsideLink
           :image-u-r-l="'messenger-link.svg'"
           :text="'Messenger'"
+          :link="'messenger'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'followers-link.svg'"
           :text="'Seguidores'"
+          :link="'following'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'groups-link.svg'"
           :text="'Grupos'"
+          :link="'groups'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'pages-link.svg'"
           :text="'Páginas'"
+          :link="'pages'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'events-link.svg'"
           :text="'Eventos'"
+          :link="'events'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'foundations-link.svg'"
           :text="'Fundações'"
+          :link="'foundations'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'memories-link.svg'"
           :text="'Memórias'"
+          :link="'memories'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'videos-link.svg'"
           :text="'Vídeos'"
+          :link="'videos'"
           @click.native="toggleMenuActive"
         />
       </div>
