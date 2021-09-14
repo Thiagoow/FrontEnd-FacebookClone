@@ -1,6 +1,6 @@
 <template>
   <div class="user-card">
-    <img src="@/assets/img/profile-pic.jpg" alt="" />
+    <img src="@/assets/img/profile-pic.png" alt="" />
 
     <div class="card-top">
       <NuxtLink to="/matheus">{{ userName }}</NuxtLink>

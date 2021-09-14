@@ -16,6 +16,12 @@ export default class Users extends VuexModule {
     this.user = user
   }
 
+  // Mutation para atualizar em tempo real o avatar do user:
+  @Mutation
+  SET_USER_AVATAR(avatar: User['avatar']) {
+    this.user.avatar = avatar
+  }
+
   @Action
   public async show() {
     /* Se o user não tiver um cookie com o token apenas

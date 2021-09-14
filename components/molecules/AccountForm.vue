@@ -36,7 +36,7 @@ export default Vue.extend({
   data() {
     return {
       // Armazena na var local todos os dados do user:
-      user: { ...users.$single }
+      user: { ...users.$single } // <- = Object.assign({}, users.$single)
     }
   }
 })

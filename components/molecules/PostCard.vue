@@ -2,7 +2,7 @@
   <div class="post-card">
     <div class="post-card-top">
       <div class="profile-avatar">
-        <img src="@/assets/img/profile-pic.jpg" alt="" />
+        <img src="@/assets/img/profile-pic.png" alt="" />
 
         <div>
           <p>Stephanny Motta</p>
@@ -66,7 +66,7 @@
     <div class="post-comments" :class="{ 'open-comments': openedComments }">
       <div class="comment-form">
         <form>
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
           <ExpandableTextarea
             v-model="text"
             placeholder="Escreva seu comentário"
@@ -76,7 +76,7 @@
 
       <div class="comments">
         <div class="comment">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
           <div class="comment-content">
             <span>Deborah Gomes</span>
             <p>
@@ -87,7 +87,7 @@
         </div>
 
         <div class="comment">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
           <div class="comment-content">
             <span>Deborah Gomes</span>
             <p>

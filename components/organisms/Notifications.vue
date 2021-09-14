@@ -7,7 +7,7 @@
 
       <div class="notifications">
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>
@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
           <div class="notification-info">
             <p>
               <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
@@ -70,38 +70,7 @@
           </div>
         </div>
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
-
-          <div class="notification-info">
-            <p>
-              <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
-            </p>
-            <span class="time">15h atrás</span>
-          </div>
-        </div>
-
-        <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
-
-          <div class="notification-info">
-            <p>
-              <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
-            </p>
-            <span class="time">15h atrás</span>
-          </div>
-        </div>
-        <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
-
-          <div class="notification-info">
-            <p>
-              <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
-            </p>
-            <span class="time">15h atrás</span>
-          </div>
-        </div>
-        <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>
@@ -112,7 +81,38 @@
         </div>
 
         <div class="notification">
-          <img src="@/assets/img/profile-pic.jpg" alt="" />
+          <img src="@/assets/img/profile-pic.png" alt="" />
+
+          <div class="notification-info">
+            <p>
+              <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
+            </p>
+            <span class="time">15h atrás</span>
+          </div>
+        </div>
+        <div class="notification">
+          <img src="@/assets/img/profile-pic.png" alt="" />
+
+          <div class="notification-info">
+            <p>
+              <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
+            </p>
+            <span class="time">15h atrás</span>
+          </div>
+        </div>
+        <div class="notification">
+          <img src="@/assets/img/profile-pic.png" alt="" />
+
+          <div class="notification-info">
+            <p>
+              <span class="user-name">Rafaela Lopes</span> fez uma nova postagem
+            </p>
+            <span class="time">15h atrás</span>
+          </div>
+        </div>
+
+        <div class="notification">
+          <img src="@/assets/img/profile-pic.png" alt="" />
 
           <div class="notification-info">
             <p>

@@ -6,7 +6,7 @@
     @submit.prevent="sendPost()"
   >
     <div class="new-post-box">
-      <img src="@/assets/img/profile-pic.jpg" alt="" />
+      <img src="@/assets/img/profile-pic.png" alt="" />
 
       <ExpandableTextarea
         v-model="text"
@@ -16,7 +16,7 @@
     </div>
 
     <div v-show="false" class="uploaded-image-preview">
-      <img src="@/assets/img/profile-pic.jpg" alt="" />
+      <img src="@/assets/img/profile-pic.png" alt="" />
     </div>
 
     <div v-show="isWritingANewPost || hasText" class="form-action">

@@ -19,9 +19,14 @@
     </form>
 
     <div class="menu-bar-actions">
-      <NuxtLink to="/123" class="profile-avatar">
-        <img src="@/assets/img/profile-pic.jpg" alt="Foto do perfil" />
-        <p>Caterine</p>
+      <NuxtLink :to="`/${$user.username}`" class="profile-avatar">
+        <img
+          :src="
+            $user.avatar ? $user.avatar.url : '@/assets/img/profile-pic.png'
+          "
+          @load="updateAvatar"
+        />
+        <p>{{ $user.name }}</p>
       </NuxtLink>
 
       <ul class="actions">
@@ -59,7 +64,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { mobile } from '@/store'
+import { mobile, users, userAvatar } from '@/store'
 
 export default Vue.extend({
   data() {
@@ -70,6 +75,9 @@ export default Vue.extend({
   computed: {
     $isMenuActive() {
       return mobile.$isMenuActive
+    },
+    $user() {
+      return users.$single
     }
   },
   methods: {
@@ -81,6 +89,12 @@ export default Vue.extend({
       html.classList.toggle('overflow-hidden')
 
       mobile.toggle()
+    },
+    async updateAvatar(event: any) {
+      /* Pega o primeiro arquivo enviado pelo usuário 
+      pra ser a nova foto de perfil: */
+      const file = event.target.files[0]
+      await userAvatar.update({ file })
     }
   }
 })
