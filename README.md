@@ -16,11 +16,11 @@ https://github.com/Thiagoow/API-FacebookClone </br>
 ##### Para instalar o projeto localmente, com a pasta "node_modules":
 
 ```
-npm install
+yarn install
 ```
 
 ##### Para compilar/executar o projeto localmente:
 
 ```
-npm run dev
+yarn dev
 ```
