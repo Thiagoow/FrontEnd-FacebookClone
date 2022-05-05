@@ -59,6 +59,12 @@
     <button class="btn-close" @click="toggleMenuActive">
       <fa :icon="['fas', 'times']" class="close" />
     </button>
+
+    <li class="settings-link" @click="toggleMenuActive">
+      <NuxtLink to="/account">
+        <fa :icon="['fas', 'cog']" class="cog" />
+      </NuxtLink>
+    </li>
   </Aside>
 </template>
 
@@ -148,12 +154,37 @@ export default Vue.extend({
   background: none;
   outline: none;
   cursor: pointer;
-  @include screen('large', 'infinity') {
-    display: none;
+  display: none;
+
+  @include screen('large') {
+    display: flex;
   }
   .close {
     font-size: 26px;
     color: white;
+  }
+}
+.settings-link {
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+
+  @include screen('large') {
+    display: flex;
+  }
+
+  img {
+    width: 1.125rem;
+  }
+
+  a {
+    font-size: 22px;
+    color: color(white);
+    position: relative;
   }
 }
 </style>

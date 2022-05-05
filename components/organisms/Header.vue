@@ -21,7 +21,7 @@
     <div class="menu-bar-actions">
       <NuxtLink to="/123" class="profile-avatar">
         <img src="@/assets/img/profile-pic.png" alt="Foto do perfil" />
-        <p>Caterine</p>
+        <p>Cataline</p>
       </NuxtLink>
 
       <ul class="actions">
@@ -158,7 +158,7 @@ export default Vue.extend({
       transition: all 500ms ease;
       border: 2px solid transparent;
       cursor: pointer;
-      @include screen('medium', 'small') {
+      @include screen('small') {
         display: none;
       }
       &.nuxt-link-exact-active {
@@ -233,9 +233,11 @@ export default Vue.extend({
     background: none;
     outline: none;
     cursor: pointer;
-    @include screen('large', 'infinity') {
-      display: none;
+    display: none;
+    @include screen('medium') {
+      display: flex;
     }
+
     .hamburger {
       font-size: 26px;
       color: white;
