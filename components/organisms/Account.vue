@@ -2,10 +2,10 @@
   <div class="account-container">
     <div class="account-avatar">
       <div class="image">
-        <img src="/profile-pic.png" />
+        <img src="@/assets/img/profile-pic.png" />
       </div>
       <div class="info">
-        <p>Caterine Silva</p>
+        <p>Cataline Silva</p>
         <label for="avatar">Alterar foto do perfil</label>
         <input id="avatar" type="file" />
       </div>
