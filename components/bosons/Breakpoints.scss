@@ -28,8 +28,8 @@ $breakpoints: (
         @content;
       }
     } @else {
-      @warn "Unfortunately, no value could be retrieved from `#{$value}`. "
-            + "Available breakpoints are: #{map-keys($breakpoints)}.";
+      @warn "No value could be retrieved from `#{$value}`. "
+            + "Available breakpoints👉🏽 #{map-keys($breakpoints)}.";
     }
   }
 }

@@ -2,18 +2,12 @@
   <div class="account-container">
     <div class="account-avatar">
       <div class="image">
-        <!-- Se o user tiver um avatar próprio, insere ele aqui usando
-        a URL, senão, coloca esse avatar padrão: -->
-        <img
-          :src="
-            $user.avatar ? $user.avatar.url : '@/assets/img/profile-pic.png'
-          "
-        />
+        <img src="/profile-pic.png" />
       </div>
       <div class="info">
-        <p>{{ $user.name }}</p>
+        <p>Caterine Silva</p>
         <label for="avatar">Alterar foto do perfil</label>
-        <input id="avatar" type="file" @input="updateAvatar" />
+        <input id="avatar" type="file" />
       </div>
     </div>
     <AccountForm />
@@ -25,21 +19,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { users, auth, userAvatar } from '@/store'
+import { auth } from '@/store'
 
 export default Vue.extend({
-  computed: {
-    $user() {
-      return users.$single
-    }
-  },
   methods: {
-    async updateAvatar(event: any) {
-      /* Pega o primeiro arquivo enviado pelo usuário 
-      pra ser a nova foto de perfil: */
-      const file = event.target.files[0]
-      await userAvatar.update({ file })
-    },
     async exitAccount() {
       await auth.destroy()
     }

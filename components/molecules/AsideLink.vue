@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/${link}`" class="aside-link" @click="$emit('click')">
+  <NuxtLink to="/" class="aside-link" @click="$emit('click')">
     <img :src="require(`@/assets/img/aside/${imageURL}`)" alt="Eventos" />
     <p>{{ text }}</p>
   </NuxtLink>
@@ -9,7 +9,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  props: ['imageURL', 'text', 'link']
+  props: ['imageURL', 'text']
 })
 </script>
 

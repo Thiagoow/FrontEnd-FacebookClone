@@ -11,12 +11,8 @@ type RootState = ReturnType<typeof state>
 
 export const actions: ActionTree<RootState, RootState> = {
   // Sempre que o server do Nuxt (nesse caso da store), for iniciado:
-  async nuxtServerInit({ dispatch }) {
+  nuxtServerInit({ dispatch }) {
     // Salva o token do user autenticado mesmo que ele recarregue a página:
     dispatch('auth/update') // moduleName/moduleMethodName
-
-    /* Executa a Action de show para carregar infos 
-    do user assim que a aplicação for iniciada: */
-    await dispatch('users/show')
   }
 }

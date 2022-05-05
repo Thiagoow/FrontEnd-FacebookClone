@@ -1,6 +1,6 @@
 <template>
   <li class="contact">
-    <NuxtLink :to="`/messenger/${link}`">
+    <NuxtLink to="/messenger/matheus">
       <div class="contact-img">
         <img :src="require(`@/assets/img/${imageURL}`)" alt="" />
         <StatusBadge :status="getStatus" />
@@ -18,7 +18,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  props: ['imageURL', 'status', 'username', 'lastmsg', 'link'],
+  props: ['imageURL', 'status', 'username', 'lastmsg'],
   computed: {
     getStatus(): string {
       return this.status

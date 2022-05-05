@@ -2,17 +2,17 @@
   <form>
     <div class="form-field">
       <label>Nome</label>
-      <BaseInput v-model="user.name" />
+      <BaseInput />
     </div>
     <div class="form-field">
       <label>Nome do usuário</label>
-      <BaseInput v-model="user.username" />
+      <BaseInput />
     </div>
     <br />
     <br />
     <div class="form-field">
       <label>E-mail</label>
-      <BaseInput v-model="user.email" readonly />
+      <BaseInput readonly />
     </div>
     <div class="form-field">
       <label>Nova senha</label>
@@ -30,16 +30,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { users } from '@/store'
 
-export default Vue.extend({
-  data() {
-    return {
-      // Armazena na var local todos os dados do user:
-      user: { ...users.$single } // <- = Object.assign({}, users.$single)
-    }
-  }
-})
+export default Vue.extend({})
 </script>
 
 <style lang="scss" scoped>

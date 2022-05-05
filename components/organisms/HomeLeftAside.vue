@@ -2,18 +2,13 @@
   <Aside :class="{ 'is-menu-active': isMenuActive }">
     <div class="content">
       <div class="profile-avatar">
-        <img
-          :src="
-            $user.avatar ? $user.avatar.url : '@/assets/img/profile-pic.png'
-          "
-          @load="updateAvatar"
-        />
-        <p>{{ $user.name }}</p>
+        <img src="@/assets/img/profile-pic.png" alt="" />
 
+        <p>Cataline S. Rocha</p>
         <BaseButton
           btn-link
           text="Ver Perfil"
-          :to="`/${$user.username}`"
+          link="/123"
           @click.native="toggleMenuActive"
         />
       </div>
@@ -21,49 +16,41 @@
         <AsideLink
           :image-u-r-l="'messenger-link.svg'"
           :text="'Messenger'"
-          :link="'messenger'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'followers-link.svg'"
           :text="'Seguidores'"
-          :link="'following'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'groups-link.svg'"
           :text="'Grupos'"
-          :link="'groups'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'pages-link.svg'"
           :text="'Páginas'"
-          :link="'pages'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'events-link.svg'"
           :text="'Eventos'"
-          :link="'events'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'foundations-link.svg'"
           :text="'Fundações'"
-          :link="'foundations'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'memories-link.svg'"
           :text="'Memórias'"
-          :link="'memories'"
           @click.native="toggleMenuActive"
         />
         <AsideLink
           :image-u-r-l="'videos-link.svg'"
           :text="'Vídeos'"
-          :link="'videos'"
           @click.native="toggleMenuActive"
         />
       </div>
@@ -77,15 +64,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { mobile, users, userAvatar } from '@/store'
+import { mobile } from '@/store'
 
 export default Vue.extend({
   computed: {
     isMenuActive() {
       return mobile.$isMenuActive
-    },
-    $user() {
-      return users.$single
     }
   },
   methods: {
@@ -99,12 +83,6 @@ export default Vue.extend({
       body.classList.toggle('overflow-hidden')
       html.classList.toggle('overflow-hidden')
       mobile.toggle()
-    },
-    async updateAvatar(event: any) {
-      /* Pega o primeiro arquivo enviado pelo usuário 
-      pra ser a nova foto de perfil: */
-      const file = event.target.files[0]
-      await userAvatar.update({ file })
     }
   }
 })

@@ -6,7 +6,4 @@ export interface User {
   rememberMeToken: null
   createdAt: string
   updatedAt: string
-  avatar?: {
-    url: string
-  }
 }
