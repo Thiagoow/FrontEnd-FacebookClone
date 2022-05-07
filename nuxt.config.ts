@@ -17,7 +17,7 @@ export default {
   plugins: [
     '@/plugins/accessor',
     '@/plugins/notifications.client',
-    '@plugins/axios'
+    '@/plugins/axios'
   ],
 
   components: [{ path: '@/components/', pathPrefix: false }],

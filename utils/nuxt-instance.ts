@@ -1,4 +1,4 @@
-import { NuxtAxiosInstance } from '@nuxtjs/axios'
+import type { NuxtAxiosInstance } from '@nuxtjs/axios'
 import { NuxtCookies } from 'cookie-universal-nuxt'
 
 /* eslint-disable import/no-mutable-exports */

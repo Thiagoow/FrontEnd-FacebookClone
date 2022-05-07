@@ -14,5 +14,10 @@ export const actions: ActionTree<RootState, RootState> = {
   nuxtServerInit({ dispatch }) {
     // Salva o token do user autenticado mesmo que ele recarregue a página:
     dispatch('auth/update') // moduleName/moduleMethodName
+
+    // BUG: Isn't loading user info :/ Also, API don't show avatar url 🤔??
+    /* Executa a Action de show para carregar infos 
+    do user assim que a aplicação for iniciada: */
+    // await dispatch('users/show')
   }
 }
