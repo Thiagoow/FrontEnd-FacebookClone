@@ -1,5 +1,6 @@
 import { Plugin } from '@nuxt/types'
 
+// BUG: This interceptor file isn't working :c
 const axiosPlugin: Plugin = ({ app, store, redirect }) => {
   // Intercepta a requisição:
   app.$axios.onRequest((config) => {
