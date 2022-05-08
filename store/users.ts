@@ -17,7 +17,7 @@ export default class Users extends VuexModule {
     this.user = user
   }
 
-  @Action
+  @Action({ rawError: true })
   public async show() {
     /* Se o user não tiver um cookie com o token apenas
     faz um return (ignora todo o código abaixo): */
