@@ -15,7 +15,7 @@ export const actions: ActionTree<RootState, RootState> = {
     // Salva o token do user autenticado mesmo que ele recarregue a página:
     dispatch('auth/update') // moduleName/moduleMethodName
 
-    /* BUG: Isn't loading user info :/
+    /* FIXME: Isn't loading user info :/
     Executa a Action de show para carregar infos 
     do user assim que a aplicação for iniciada: */
     // await dispatch('users/show')

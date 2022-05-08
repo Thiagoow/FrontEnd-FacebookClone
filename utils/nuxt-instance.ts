@@ -1,3 +1,4 @@
+// BUG: Importing with 'type' because "NuxtAxiosInstance not found in '@nuxtjs/axios'"
 import type { NuxtAxiosInstance } from '@nuxtjs/axios'
 import { NuxtCookies } from 'cookie-universal-nuxt'
 
