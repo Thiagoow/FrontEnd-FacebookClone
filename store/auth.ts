@@ -55,6 +55,7 @@ export default class Auth extends VuexModule {
   }
 
   @Action
+  // TODO: Check if this is working as it should
   public async destroy() {
     // Desfaz o login/autenticação:
     await $axios.delete('/auth')
